@@ -1,0 +1,11 @@
+2019-05-27 14:08:33,123 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute']
+2019-05-27 14:08:33,126 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances']
+2019-05-27 14:08:33,140 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances', u'delete']
+2019-05-27 14:08:33,142 ERROR    root            (gcloud.compute.instances.delete) unrecognized arguments:
+  gke-cloud-app1-d80235a6-tnqt
+  gke-cloud-lll-f2b5be92-3xfw
+  gke-cloud-saiapp-29702cc7-mnrj
+  gke-cloud-smithapp-1b48d156-8w9m
+  To search the help text of gcloud commands, run:
+  gcloud help -- SEARCH_TERMS
+2019-05-27 14:08:33,151 DEBUG    root            Metrics reporting process started...

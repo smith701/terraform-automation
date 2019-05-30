@@ -1,0 +1,11 @@
+2019-05-28 07:42:46,569 DEBUG    root            Loaded Command Group: [u'gcloud', u'container']
+2019-05-28 07:42:46,573 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters']
+2019-05-28 07:42:46,575 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters', u'get_credentials']
+2019-05-28 07:42:46,616 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "applied-fusion-241610", --zone: "us-east4-c", NAME: "cloudseals"]
+2019-05-28 07:42:46,622 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2019-05-28 07:42:46,723 DEBUG    root            Saved kubeconfig to /root/.kube/config
+2019-05-28 07:42:46,724 INFO     ___FILE_ONLY___ kubeconfig entry generated for cloudseals.
+
+2019-05-28 07:42:46,725 INFO     root            Display format: "default"
+2019-05-28 07:42:46,735 DEBUG    root            Metrics reporting process started...

@@ -1,0 +1,189 @@
+2019-05-24 10:20:30,301 DEBUG    root            Loaded Command Group: [u'gcloud', u'components']
+2019-05-24 10:20:30,304 DEBUG    root            Loaded Command Group: [u'gcloud', u'components', u'install']
+2019-05-24 10:20:30,306 DEBUG    root            Running [gcloud.components.install] with arguments: [COMPONENT-IDS:1: "[u'kubectl']"]
+2019-05-24 10:20:30,394 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,395 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 247.0.0
+
+2019-05-24 10:20:30,395 INFO     ___FILE_ONLY___ Installing components from version: 247.0.0
+
+2019-05-24 10:20:30,395 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ ┌─────────────────────────────────────────────────────────────────────┐
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ │                 These components will be installed.                 │
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ ├─────────────────────┬────────────────────────┬──────────────────────┤
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ │         Name        │        Version         │         Size         │
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,399 INFO     ___FILE_ONLY___ ├─────────────────────┼────────────────────────┼──────────────────────┤
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___ │ 
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___ kubectl            
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___  
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___ │ 
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___             2019.05.17
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___  
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___ │ 
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___              < 1 MiB
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___  
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___ │
+2019-05-24 10:20:30,400 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___ │ 
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___ kubectl            
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___  
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___ │ 
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___                 1.12.8
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___  
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___ │ 
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___             64.7 MiB
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___  
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___ │
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___ └─────────────────────┴────────────────────────┴──────────────────────┘
+2019-05-24 10:20:30,401 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,402 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:30,436 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2019-05-24 10:20:32,041 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2019-05-24 10:20:32,041 INFO     ___FILE_ONLY___ ╠═ Creating update staging area                             ═╣
+
+2019-05-24 10:20:32,041 INFO     ___FILE_ONLY___ ╚
+2019-05-24 10:20:32,041 INFO     ___FILE_ONLY___ ══════
+2019-05-24 10:20:32,211 INFO     ___FILE_ONLY___ ══════
+2019-05-24 10:20:32,211 INFO     ___FILE_ONLY___ ══════
+2019-05-24 10:20:32,309 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,359 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,408 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,485 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,558 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,584 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,612 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,641 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,673 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,725 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,753 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,786 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,814 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,831 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,849 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,880 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,914 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,938 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:32,985 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,004 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,036 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,068 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,093 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,126 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,147 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,183 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,218 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,255 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,282 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,308 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,362 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,392 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,423 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,459 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,486 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,529 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,552 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,576 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,618 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,663 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,705 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,744 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:33,744 INFO     ___FILE_ONLY___ ╝
+2019-05-24 10:20:33,749 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2019-05-24 10:20:33,750 INFO     ___FILE_ONLY___ ╠═ Installing: kubectl                                      ═╣
+
+2019-05-24 10:20:33,750 INFO     ___FILE_ONLY___ ╚
+2019-05-24 10:20:33,872 INFO     ___FILE_ONLY___ ═══════════
+2019-05-24 10:20:33,881 INFO     ___FILE_ONLY___ ═══════════
+2019-05-24 10:20:33,885 INFO     ___FILE_ONLY___ ════════
+2019-05-24 10:20:33,888 INFO     ___FILE_ONLY___ ══════════
+2019-05-24 10:20:33,888 INFO     ___FILE_ONLY___ ═════════
+2019-05-24 10:20:33,891 INFO     ___FILE_ONLY___ ═══════════
+2019-05-24 10:20:33,891 INFO     ___FILE_ONLY___ ╝
+2019-05-24 10:20:33,896 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2019-05-24 10:20:33,896 INFO     ___FILE_ONLY___ ╠═ Installing: kubectl                                      ═╣
+
+2019-05-24 10:20:33,896 INFO     ___FILE_ONLY___ ╚
+2019-05-24 10:20:34,000 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,007 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,013 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,019 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,025 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,030 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,036 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,042 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,048 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,055 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,061 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,066 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,072 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,078 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,084 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,090 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,096 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,103 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,108 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,114 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,120 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,125 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,132 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,138 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,143 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,149 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,155 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,161 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,166 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:34,172 INFO     ___FILE_ONLY___ ═
+2019-05-24 10:20:36,046 INFO     ___FILE_ONLY___ ═════
+2019-05-24 10:20:36,401 INFO     ___FILE_ONLY___ ═════
+2019-05-24 10:20:36,720 INFO     ___FILE_ONLY___ ═════
+2019-05-24 10:20:37,136 INFO     ___FILE_ONLY___ ════
+2019-05-24 10:20:37,534 INFO     ___FILE_ONLY___ ══════
+2019-05-24 10:20:37,948 INFO     ___FILE_ONLY___ ═════
+2019-05-24 10:20:37,949 INFO     ___FILE_ONLY___ ╝
+2019-05-24 10:20:37,961 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2019-05-24 10:20:37,962 INFO     ___FILE_ONLY___ ╠═ Creating backup and activating new installation          ═╣
+
+2019-05-24 10:20:37,962 INFO     ___FILE_ONLY___ ╚
+2019-05-24 10:20:37,962 DEBUG    root            Attempting to move directory [/root/google-cloud-sdk] to [/root/google-cloud-sdk.staging/.install/.backup]
+2019-05-24 10:20:37,962 INFO     ___FILE_ONLY___ ══════════════════════════════
+2019-05-24 10:20:37,962 DEBUG    root            Attempting to move directory [/root/google-cloud-sdk.staging] to [/root/google-cloud-sdk]
+2019-05-24 10:20:37,962 INFO     ___FILE_ONLY___ ══════════════════════════════
+2019-05-24 10:20:37,963 INFO     ___FILE_ONLY___ ╝
+
+2019-05-24 10:20:37,966 DEBUG    root            Updating notification cache...
+2019-05-24 10:20:37,967 INFO     ___FILE_ONLY___ 
+
+2019-05-24 10:20:37,967 INFO     ___FILE_ONLY___ Performing post processing steps...
+2019-05-24 10:20:37,968 DEBUG    root            Executing command: ['/usr/bin/python2', u'-S', u'/root/google-cloud-sdk/lib/gcloud.py', u'components', u'post-process']
+2019-05-24 10:20:38,512 DEBUG    ___FILE_ONLY___ 
+2019-05-24 10:20:38,512 DEBUG    ___FILE_ONLY___ 
+2019-05-24 10:20:38,721 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2019-05-24 10:20:38,726 INFO     root            Display format: "none"
+2019-05-24 10:20:38,737 DEBUG    root            Metrics reporting process started...

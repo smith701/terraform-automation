@@ -1,0 +1,78 @@
+2019-05-24 10:18:28,025 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-24 10:18:28,027 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-24 10:18:28,028 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-24 10:18:28,029 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2019-05-24 10:18:28,029 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2019-05-24 10:18:28,029 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2019-05-24 10:18:28,029 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2019-05-24 10:18:28,030 INFO     ___FILE_ONLY___ Checking network connection...
+2019-05-24 10:18:28,832 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2019-05-24 10:18:28,833 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2019-05-24 10:18:38,172 INFO     ___FILE_ONLY___ You are logged in as: [1087612833997-compute@developer.gserviceaccount.com].
+
+
+2019-05-24 10:18:48,764 INFO     ___FILE_ONLY___ Enabling service [cloudresourcemanager.googleapis.com] on project [1087612833997]...
+
+2019-05-24 10:18:49,916 INFO     ___FILE_ONLY___ Waiting for async operation operations/acf.45b4dc1f-86ec-47e7-9474-1a34d81ff968 to complete...
+
+2019-05-24 10:18:53,099 INFO     ___FILE_ONLY___ Operation finished successfully. The following command can describe the Operation details:
+ gcloud services operations describe operations/tmo-acf.45b4dc1f-86ec-47e7-9474-1a34d81ff968
+
+2019-05-24 10:18:53,099 DEBUG    root            Request returned no response, retrying
+2019-05-24 10:18:53,101 DEBUG    root            Retrying request to url https://cloudresourcemanager.googleapis.com/v1/projects?filter=lifecycleState%3AACTIVE&alt=json&pageSize=201 after exception Retry
+2019-05-24 10:18:59,705 INFO     ___FILE_ONLY___ Your current project has been set to: [applied-fusion-241610].
+
+
+2019-05-24 10:18:59,768 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute']
+2019-05-24 10:18:59,772 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project_info']
+2019-05-24 10:18:59,778 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project-info', u'describe']
+2019-05-24 10:18:59,779 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2019-05-24 10:18:59,782 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2019-05-24 10:19:00,216 INFO     root            Display disabled.
+2019-05-24 10:19:54,004 DEBUG    root            Executing command: [u'/root/google-cloud-sdk/bin/gsutil', u'config', u'-n', u'-o', u'/root/.boto']
+2019-05-24 10:19:55,503 DEBUG    ___FILE_ONLY___ 
+2019-05-24 10:19:55,503 DEBUG    ___FILE_ONLY___ This command will create a boto config file at /root/.boto containing
+your credentials, based on your responses to the following questions.
+
+Boto config file "/root/.boto" created. If you need to use a proxy to
+access the Internet please see the instructions in that file.
+
+2019-05-24 10:19:55,503 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/root/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2019-05-24 10:19:55,504 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2019-05-24 10:19:55,504 INFO     ___FILE_ONLY___ * Commands that require authentication will use 1087612833997-compute@developer.gserviceaccount.com by default
+
+2019-05-24 10:19:55,504 INFO     ___FILE_ONLY___ * Commands will reference project `applied-fusion-241610` by default
+
+2019-05-24 10:19:55,504 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2019-05-24 10:19:55,504 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2019-05-24 10:19:55,505 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2019-05-24 10:19:55,505 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2019-05-24 10:19:55,505 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2019-05-24 10:19:55,505 INFO     ___FILE_ONLY___ * Run `gcloud topic --help` to learn about advanced features of the SDK like arg files and output formatting
+
+2019-05-24 10:19:55,506 INFO     root            Display format: "default"
+2019-05-24 10:19:55,517 DEBUG    root            Metrics reporting process started...

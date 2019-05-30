@@ -1,0 +1,26 @@
+2019-05-27 14:02:51,993 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute']
+2019-05-27 14:02:51,997 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances']
+2019-05-27 14:02:52,014 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances', u'delete']
+2019-05-27 14:02:52,018 DEBUG    root            Running [gcloud.compute.instances.delete] with arguments: [INSTANCE_NAMES:1: "[u'gke-cloud-akhiapp-65b77659-grp']"]
+2019-05-27 14:03:12,600 DEBUG    root            (gcloud.compute.instances.delete) Could not fetch resource:
+ - The resource 'projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-akhiapp-65b77659-grp' was not found
+Traceback (most recent call last):
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 985, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 795, in Run
+    resources = command_instance.Run(args)
+  File "/root/google-cloud-sdk/lib/surface/compute/instances/delete.py", line 209, in Run
+    return client.MakeRequests(delete_requests)
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 95, in MakeRequests
+    errors, error_message='Could not fetch resource:')
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 117, in RaiseToolException
+    RaiseException(problems, calliope_exceptions.ToolException, error_message)
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 129, in RaiseException
+    errors))
+ToolException: Could not fetch resource:
+ - The resource 'projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-akhiapp-65b77659-grp' was not found
+
+2019-05-27 14:03:12,601 ERROR    root            (gcloud.compute.instances.delete) Could not fetch resource:
+ - The resource 'projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-akhiapp-65b77659-grp' was not found
+
+2019-05-27 14:03:12,620 DEBUG    root            Metrics reporting process started...

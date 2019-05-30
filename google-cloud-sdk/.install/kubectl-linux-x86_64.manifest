@@ -1,0 +1,5 @@
+bin/kubectl
+bin/kubectl.1.11
+bin/kubectl.1.12
+bin/kubectl.1.13
+bin/kubectl.1.14

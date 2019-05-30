@@ -1,0 +1,12 @@
+2019-05-24 10:42:20,888 DEBUG    root            Loaded Command Group: [u'gcloud', u'container']
+2019-05-24 10:42:20,892 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters']
+2019-05-24 10:42:20,894 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters', u'get_credentials']
+2019-05-24 10:42:20,998 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "applied-fusion-241610", --zone: "us-east4-c", NAME: "cloud"]
+2019-05-24 10:42:21,004 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2019-05-24 10:42:21,128 DEBUG    root            unable to load default kubeconfig: unable to load kubeconfig for /root/.kube/config: Unable to read file [/root/.kube/config]: [Errno 2] No such file or directory: '/root/.kube/config'; recreating /root/.kube/config
+2019-05-24 10:42:21,136 DEBUG    root            Saved kubeconfig to /root/.kube/config
+2019-05-24 10:42:21,136 INFO     ___FILE_ONLY___ kubeconfig entry generated for cloud.
+
+2019-05-24 10:42:21,137 INFO     root            Display format: "default"
+2019-05-24 10:42:21,147 DEBUG    root            Metrics reporting process started...

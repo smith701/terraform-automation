@@ -1,0 +1,153 @@
+2019-05-27 14:10:55,311 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute']
+2019-05-27 14:10:55,315 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances']
+2019-05-27 14:10:55,329 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'instances', u'delete']
+2019-05-27 14:10:55,333 DEBUG    root            Running [gcloud.compute.instances.delete] with arguments: [INSTANCE_NAMES:1: "[u'gke-cloud-app-6b1a40ad-xn9c']"]
+2019-05-27 14:11:03,688 DEBUG    root            Operations to inspect: [<Operation
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:03,928 DEBUG    root            Sleeping for 1s.
+2019-05-27 14:11:04,930 DEBUG    root            Operations to inspect: [<Operation
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:05,247 DEBUG    root            Sleeping for 2s.
+2019-05-27 14:11:07,250 DEBUG    root            Operations to inspect: [<Operation
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:07,510 DEBUG    root            Sleeping for 3s.
+2019-05-27 14:11:10,513 DEBUG    root            Operations to inspect: [<Operation
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:10,791 DEBUG    root            Sleeping for 4s.
+2019-05-27 14:11:14,795 DEBUG    root            Operations to inspect: [<Operation
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:15,084 DEBUG    root            Sleeping for 5s.
+2019-05-27 14:11:20,090 DEBUG    root            Operations to inspect: [<Operation
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:20,324 DEBUG    root            Sleeping for 5s.
+2019-05-27 14:11:25,330 DEBUG    root            Operations to inspect: [<Operation
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:25,632 DEBUG    root            Sleeping for 5s.
+2019-05-27 14:11:30,638 DEBUG    root            Operations to inspect: [<Operation
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 0
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:34,601 DEBUG    root            Sleeping for 5s.
+2019-05-27 14:11:39,606 DEBUG    root            Operations to inspect: [<Operation
+ endTime: u'2019-05-27T07:11:26.167-07:00'
+ id: 928384482028179736
+ insertTime: u'2019-05-27T07:11:03.440-07:00'
+ kind: u'compute#operation'
+ name: u'operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ operationType: u'delete'
+ progress: 100
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/operations/operation-1558966262956-589df1e5202b6-122e6188-33752432'
+ startTime: u'2019-05-27T07:11:03.497-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 7479957681592380876
+ targetLink: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c'
+ user: u'1087612833997-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: u'https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c'>]
+2019-05-27 14:11:39,607 INFO     ___FILE_ONLY___ Deleted [https://www.googleapis.com/compute/v1/projects/applied-fusion-241610/zones/us-east4-c/instances/gke-cloud-app-6b1a40ad-xn9c].
+
+2019-05-27 14:11:39,608 INFO     root            Display format: "none"
+2019-05-27 14:11:39,615 INFO     root            cache collection=compute.instances api_version=v1 params=[u'project', u'zone', u'instance']
+2019-05-27 14:11:39,632 DEBUG    root            Metrics reporting process started...

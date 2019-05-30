@@ -1,0 +1,30 @@
+2019-05-29 11:11:07,565 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2019-05-29 11:11:07,568 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2019-05-29 11:11:07,570 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2019-05-29 11:11:07,661 INFO     root            Display format: "default json"
+2019-05-29 11:11:07,662 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "1087612833997-compute@developer.gserviceaccount.com",
+        "disable_usage_reporting": "False",
+        "project": "applied-fusion-241610"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.c.ElwYBxsH-4tSn93xcMKsxEy3RFxUrbFVcsGtY5a780jACbs5kZTrjg277WOTpH2hPOc9fEBQpm1cLfkJfeWqBDHsTVTJ_42ZPC3WrMJ4Z8z3m5I6h4JoJ_TQqIiB8Q",
+    "id_token": null,
+    "token_expiry": "2019-05-29T12:11:06Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/root/.config/gcloud/config_sentinel"
+  }
+}
+2019-05-29 11:11:07,662 INFO     ___FILE_ONLY___ 
+
+2019-05-29 11:11:07,663 DEBUG    root            Checking for updates...
+2019-05-29 11:11:07,809 DEBUG    root            Updating notification cache...
+2019-05-29 11:11:07,809 DEBUG    root            Activating notification: [default]
+2019-05-29 11:11:07,821 DEBUG    root            Metrics reporting process started...

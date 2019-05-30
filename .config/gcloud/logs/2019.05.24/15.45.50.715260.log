@@ -1,0 +1,27 @@
+2019-05-24 15:45:50,720 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2019-05-24 15:45:50,722 DEBUG    root            Running [gcloud.init] with arguments: []
+2019-05-24 15:45:50,723 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2019-05-24 15:45:50,724 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2019-05-24 15:45:50,729 INFO     ___FILE_ONLY___ core:
+  account: 1087612833997-compute@developer.gserviceaccount.com
+  disable_usage_reporting: 'False'
+  project: applied-fusion-241610
+
+2019-05-24 15:45:50,729 INFO     ___FILE_ONLY___ 
+
+2019-05-25 09:25:25,662 DEBUG    root            [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 985, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 795, in Run
+    resources = command_instance.Run(args)
+  File "/root/google-cloud-sdk/lib/surface/init.py", line 106, in Run
+    configuration_name = self._PickConfiguration()
+  File "/root/google-cloud-sdk/lib/surface/init.py", line 258, in _PickConfiguration
+    idx = console_io.PromptChoice(choices, message='Pick configuration to use:')
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 548, in PromptChoice
+    write('\n')
+IOError: [Errno 5] Input/output error

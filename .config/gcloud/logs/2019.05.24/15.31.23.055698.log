@@ -1,0 +1,27 @@
+2019-05-24 15:31:23,057 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2019-05-24 15:31:23,059 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2019-05-24 15:31:23,072 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2019-05-24 15:31:23,099 INFO     root            Display format: "default json"
+2019-05-24 15:31:23,100 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "1087612833997-compute@developer.gserviceaccount.com",
+        "disable_usage_reporting": "False",
+        "project": "applied-fusion-241610"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.c.ElwTB0iCvnq6vljI7_Z4razCoKpaFk9uxDWi4wii39hv_EpnRreJRiIkqbiOgebOIPjpuPtBqcT_kiVbDcngPKVsfxCSTI2FGlziv-NguBUXr4cLFuP2L1aST9xPig",
+    "id_token": null,
+    "token_expiry": "2019-05-24T16:29:45Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/root/.config/gcloud/config_sentinel"
+  }
+}
+2019-05-24 15:31:23,100 INFO     ___FILE_ONLY___ 
+
+2019-05-24 15:31:23,144 DEBUG    root            Metrics reporting process started...

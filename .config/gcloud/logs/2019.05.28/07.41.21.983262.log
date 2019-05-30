@@ -1,0 +1,21 @@
+2019-05-28 07:41:21,988 DEBUG    root            Loaded Command Group: [u'gcloud', u'container']
+2019-05-28 07:41:21,993 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters']
+2019-05-28 07:41:21,995 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters', u'get_credentials']
+2019-05-28 07:41:22,103 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "thrashingcorecode", --zone: "us-west1-a", NAME: "ournewworld"]
+2019-05-28 07:41:22,108 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2019-05-28 07:41:23,222 DEBUG    root            (gcloud.container.clusters.get-credentials) ResponseError: code=404, message=Not found: thrashingcorecode.
+Traceback (most recent call last):
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 985, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 795, in Run
+    resources = command_instance.Run(args)
+  File "/root/google-cloud-sdk/lib/surface/container/clusters/get_credentials.py", line 102, in Run
+    cluster = adapter.GetCluster(cluster_ref)
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 773, in GetCluster
+    self.CheckClusterOtherZones(cluster_ref, api_error)
+  File "/root/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 798, in CheckClusterOtherZones
+    raise exceptions.HttpException(error, util.HTTP_ERROR_FORMAT)
+HttpException: ResponseError: code=404, message=Not found: thrashingcorecode.
+2019-05-28 07:41:23,224 ERROR    root            (gcloud.container.clusters.get-credentials) ResponseError: code=404, message=Not found: thrashingcorecode.
+2019-05-28 07:41:23,241 DEBUG    root            Metrics reporting process started...
